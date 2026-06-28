@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "react-scripts build",
-  "outputDirectory": "build",
   "framework": "create-react-app",
   "env": {
     "CI": "false"
-  }
+  },
+  "buildCommand": "node node_modules/react-scripts/bin/react-scripts.js build",
+  "outputDirectory": "build"
 }
